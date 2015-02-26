@@ -1,0 +1,3 @@
+Mine was slower than both top answers. Only slightly slower than the "best practices" answer, which is almost identical in algorithm, except I pull my reverse() function out into the String prototype (which is cleaner, but slightly slower). The most clever answer, however, is also the fastest. It uses regex to identify words w more than 5 characters, and uses the replace function to perform the transformation on those words.
+
+Performance results: http://jsperf.com/codewars-spin-words-crittelmeyer
